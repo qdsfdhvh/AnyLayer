@@ -22,6 +22,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, NormalActivity.class));
             }
         });
+        findViewById(R.id.tv_activity_normal2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Normal2Activity.class));
+            }
+        });
         findViewById(R.id.tv_activity_full_screen).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
